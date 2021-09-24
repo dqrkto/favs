@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset='utf-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+		<meta name='author' content='Lucas do Prado Pinto'>
+
+		<title>Favs</title>
+
+		<link href="./assets/star.png" rel="icon" type="image/x-icon">
+		<link href="./css/out/bootstrap.min.css" rel="stylesheet">
+		<link href="./css/in/styles.css" rel="stylesheet">
+		<script src="./js/out/handlebars.min-v4.7.7.js"></script>
+
+	</head>
+
+	<body class="background dark vh-100 toggleTheme">
+		<div class="container-fluid h-100">
+			<div class="row text-center mx-0" id="boxAll">
+                {{#each sitesJSON}}
+                    <div class="{{this.box}} border dark toggleTheme">
+                        <div class="row justify-content-center">
+                            <div class="col-sm-12 box-header"><a role="button" onclick="toggleTheme()">{{this.name}}</a></div>
+                            {{#each this.content}}
+                                {{#if this.nick}}
+                                    <div class="{{../this.card}} card-div">
+                                        <a role="button" target="_blank" class="btn dark w-100 card-custom toggleTheme" data-bs-toggle="modal" data-bs-target="#{{this.nick}}Links">
+                                            {{this.name}} [+]
+                                        </a>
+                                    </div>
+                                {{else}}
+                                    <div class="{{../this.card}} card-div">
+                                        <a href="{{this.link}}" target="_blank" class="btn dark w-100 card-custom toggleTheme">
+                                            {{this.name}}
+                                        </a>
+                                    </div>
+                                {{/if}}
+                            {{/each}}
+                        </div>
+                    </div>
+                {{/each}}
+			</div>
+		</div>
+
+        <div id="modalAll">
+            {{#each content}}
+                <div class="modal fade" id="{{this.nick}}Links" tabindex="-1">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content dark toggleTheme">
+                            <div class="modal-header justify-content-center border-0 py-2">
+                                <h2 class="modal-title text-center">{{this.name}}</h2>
+                            </div>
+                            <div class="modal-body pt-0 pb-2">
+                                <div class="row justify-content-center">
+                                    {{#each this.link}}
+                                        {{#unless this.nick}}
+                                            <div class="col-sm-6 col-md-4 card-div">
+                                                <a href="{{this.link}}" target="_blank" class="btn dark w-100 card-custom toggleTheme">
+                                                    {{this.name}}
+                                                </a>
+                                            </div>
+                                        {{else}}
+                                            <div class="col-sm-6 col-md-4 card-div">
+                                                <a role="button" target="_blank" class="btn dark w-100 card-custom toggleTheme" data-bs-toggle="modal" data-bs-target="#{{this.nick}}Links">
+                                                    {{this.name}} [+]
+                                                </a>
+                                            </div>
+                                        {{/unless}}
+                                    {{/each}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+
+		<script src="./js/out/bootstrap.bundle.min.js"></script>
+
+		<script src="./js/in/sites.json"></script>
+	    <script src="./js/in/scripts.js"></script>	
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+

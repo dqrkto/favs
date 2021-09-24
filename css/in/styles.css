@@ -1,0 +1,175 @@
+@font-face {
+    font-family: monster;
+    src: url(../../assets/mrmonster.ttf);
+  }
+
+.background{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: monster;
+}
+
+.background .container-fluid{
+    padding-top: 2.5vh; 
+    padding-bottom: 2.5vh;
+}
+
+#boxAll{
+    height: 95vh;
+}
+
+.box-header{
+    margin-bottom: 1vh;
+    font-size: 4vh;
+    height: 4vh;  
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    line-height:1
+}
+
+.card-div{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.card-custom{
+    padding-top: 5vh !important;
+    padding-bottom: 5vh !important;
+    font-size: 2.5vh;
+    height: 12.5vh;
+    line-height: 1;
+}
+
+/*##############################################################################
+################################## Dark Theme ##################################
+##############################################################################*/
+
+/*==================
+==== Background ====
+==================*/
+
+.background.dark{
+    background-image: radial-gradient(circle, #000000cb 0%, #000000d7 100%), url("../../assets/backD.jpg");
+    background-color: rgb(33, 33, 33);
+    color: white;
+}
+
+/*==================
+====== Button ======
+==================*/
+
+.btn.dark{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-color: #b1b1b1;
+    color: #ffffff;
+}
+
+.btn.dark:hover {
+    background-color: rgba(35, 35, 35, 0.4);
+    color: #ffffff;
+}
+
+.btn.dark:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .15rem rgba(255, 255, 255, 0.3);
+}
+
+/*==================
+====== Border ======
+==================*/
+
+.border.dark{
+    padding-top: 2vh; 
+    padding-bottom: 1vh;
+    border-color: #b1b1b1!important;
+}
+
+/*==================
+====== Modal =======
+==================*/
+
+.modal .modal-dialog .modal-content.dark {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgb(255, 255, 255);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+/*##############################################################################
+################################## Light Theme #################################
+##############################################################################*/
+
+/*==================
+==== Background ====
+==================*/
+
+.background.light{
+    background-image: radial-gradient(circle, #ffffff44 0%, #ffffffab 100%), url("../../assets/backL.jpg");
+    background-color: rgb(220, 220, 220);
+    color: black;
+}
+
+/*==================
+====== Button ======
+==================*/
+
+.btn.light{
+    background-color: rgba(255, 255, 255, 0.4); 
+    border-color: #323232;
+    color: #000000;
+}
+
+.btn.light:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn.light:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .15rem rgba(0, 0, 0, 0.3);
+}
+
+/*==================
+====== Border ======
+==================*/
+
+.border.light{
+    padding-top: 2vh; 
+    padding-bottom: 1vh;
+    border-color: #323232!important;
+}
+
+/*==================
+====== Modal =======
+==================*/
+
+.modal .modal-dialog .modal-content.light {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
+    border-color: #323232;
+}
+
+/*##############################################################################
+################################################################################
+##############################################################################*/
+
+/* Scrollbar Custom */
+/* width */
+::-webkit-scrollbar {
+    width: 0.3vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
