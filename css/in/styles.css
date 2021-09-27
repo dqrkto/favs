@@ -51,7 +51,7 @@
 ==================*/
 
 .background.dark{
-    background-image: radial-gradient(circle, #000000cb 0%, #000000d7 100%), url("../../assets/backD.jpg");
+    background-image: radial-gradient(circle, #0000008a 0%, #000000a6 100%), url("../../assets/backD.jpg");
     background-color: rgb(33, 33, 33);
     color: white;
 }
@@ -105,7 +105,7 @@
 ==================*/
 
 .background.light{
-    background-image: radial-gradient(circle, #ffffff44 0%, #ffffffab 100%), url("../../assets/backL.jpg");
+    background-image: radial-gradient(circle, #ffffff2e 0%, #ffffff8e 100%), url("../../assets/backL.jpg");
     background-color: rgb(220, 220, 220);
     color: black;
 }
