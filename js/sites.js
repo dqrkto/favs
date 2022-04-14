@@ -110,8 +110,8 @@ const sitesJSON = {
 				]
 			},
 			{
-				"name": "Spotify",
-				"link": "https://open.spotify.com/"
+				"name": "MongoDB",
+				"link": "https://account.mongodb.com/account/login"
 			},
 			{
 				"nick": "init",
@@ -225,6 +225,10 @@ const sitesJSON = {
 					{
 						"name": "Multicanais",
 						"link": "https://multicanais.com/"
+					},
+					{
+						"name": "RedeCanais",
+						"link": "https://redecanaistv.net/"
 					},
 					{
 						"name": "Legendas.tv",
@@ -383,8 +387,8 @@ const sitesJSON = {
 						"link": "https://kaffeine.herokuapp.com/"
 					},
 					{
-						"name": "MongoDB",
-						"link": "https://account.mongodb.com/"
+						"name": "Font Awesome",
+						"link": "https://fontawesome.com/"
 					},
 					{
 						"name": "Gitpod",
@@ -747,7 +751,7 @@ const sitesJSON = {
 			},
 			{
 				"name": "xEdit",
-				"link": "https://github.com/dqrkto/favs/edit/main/js/in/sites.json"
+				"link": "https://github.com/dqrkto/favs/edit/main/js/sites.js"
 			}
 		]
 	},
