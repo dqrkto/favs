@@ -46,3 +46,16 @@ function toggleTheme() {
 		element.classList.remove(toggleValues[1]);
 	}
 }
+
+let dateNow = new Date()
+dateNow = dateNow.toString()
+
+document.getElementById('datetimeSpan').innerHTML = dateNow.substr(16, 2) + 'h' + dateNow.substr(19, 2) + ' ' + dateNow.substr(8, 2) + '/' + dateNow.substr(4, 3)
+
+setInterval(() => {
+	let dateNow = new Date()
+	dateNow = dateNow.toString()
+
+	document.getElementById('datetimeSpan').innerHTML = dateNow.substr(16, 2) + 'h' + dateNow.substr(19, 2) + ' ' + dateNow.substr(8, 2) + '/' + dateNow.substr(4, 3)
+
+}, 30000);

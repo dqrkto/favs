@@ -778,16 +778,16 @@ const sitesJSON = {
 				"link": "https://photos.google.com/u/1/"
 			},
 			{
-				"name": "Sheet Accounts",
-				"link": "https://docs.google.com/spreadsheets/d/1yWhGiQqrJYCxHhnO2bXYfhHN4qpxsGfyQ6DsP4DTarg/edit#gid=0"
-			},
-			{
 				"nick": "maisGoogle",
 				"name": "maisGoogle",
 				"link": [
 					{
 						"name": "Sheet All",
 						"link": "https://docs.google.com/spreadsheets/d/1OWUnGBX4i-56ZPII3CZobVw_AUwqT3QJRwM1bmLxP6E/edit#gid=0"
+					},
+					{
+						"name": "Sheet Accounts",
+						"link": "https://docs.google.com/spreadsheets/d/1yWhGiQqrJYCxHhnO2bXYfhHN4qpxsGfyQ6DsP4DTarg/edit#gid=0"
 					},
 					{
 						"name": "Calendar",
@@ -814,7 +814,11 @@ const sitesJSON = {
 						"link": "http://scholar.google.com/"
 					}
 				]
-			}
+			},
+			{
+				"name": "<span id=\"datetimeSpan\" class=\"font-nasa\" style=\"font-size: .9em\"></span>",
+				"link": "https://time.is/"
+			},
 		]
 	}
 }

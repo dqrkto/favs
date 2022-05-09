@@ -1,7 +1,25 @@
 @font-face {
     font-family: monster;
     src: url('../assets/mrmonster.ttf');
-  }
+}
+
+@font-face {
+    font-family: nasa;
+    src: url('../assets/nasalization.otf');
+}
+
+@font-face {
+    font-family: xirod;
+    src: url('../assets/xirod.ttf');
+}
+
+.font-nasa{
+    font-family: nasa;
+}
+
+.font-xirod{
+    font-family: xirod;
+}
 
 .background{
     background-size: cover;
