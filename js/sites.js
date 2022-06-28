@@ -1,76 +1,32 @@
 const sitesJSON = {
 	"utf": {
-		"name": "UTF",
+		"name": "VILT",
 		"box": "col-sm-3 col-md-2",
 		"card": "col-sm-12",
 		"content": [
 			{
-				"name": "Portal",
-				"link": "https://sistemas2.utfpr.edu.br/login?returnUrl=%2Fdpls%2Fsistema%2Faluno02%2Fmpmenu.inicio"
+				"name": "Zeus",
+				"link": "https://zeus.vilt-group.com/"
 			},
 			{
-				"name": "Moodle",
-				"link": "https://moodle.utfpr.edu.br/"
+				"name": "Athena",
+				"link": "https://athena.vilt-group.com/"
 			},
 			{
-				"name": "Drive UTF",
-				"link": "https://drive.google.com/drive/u/1/"
+				"name": "Cognos",
+				"link": "https://cognos.vilt-group.com/"
 			},
 			{
-				"name": "Gmail UTF",
+				"name": "Webmail",
 				"link": "https://mail.google.com/mail/u/1/"
 			},
 			{
-				"name": "Drive Key",
-				"link": "https://drive.google.com/drive/u/1/folders/1uAs5juoO6WiSgM513839BV_9BIu_KNqL"
+				"name": "Calendar",
+				"link": "http://calendar.vilt-group.com/"
 			},
 			{
-				"nick": "maisUtf",
-				"name": "maisUTF",
-				"link": [
-					{
-						"name": "CertificaUTF",
-						"link": "https://certificautf.herokuapp.com/"
-					},
-					{
-						"name": "SGCE",
-						"link": "http://apl.utfpr.edu.br/extensao/certificados/listaPublica"
-					},
-					{
-						"name": "Cursos",
-						"link": "http://www.utfpr.edu.br/cursos/graduacao"
-					},
-					{
-						"nick": "ludico",
-						"name": "LUDICO",
-						"link": [
-							{
-								"name": "Facebook",
-								"link": "https://www.facebook.com/UTFPR.BG"
-							},
-							{
-								"name": "Instagram",
-								"link": "https://www.instagram.com/utfprbg/"
-							},
-							{
-								"name": "Blog",
-								"link": "http://utfprbg.cp.utfpr.edu.br/"
-							},
-							{
-								"name": "YouTube",
-								"link": "https://www.youtube.com/c/UTFPRBG"
-							},
-							{
-								"name": "Drive",
-								"link": "https://drive.google.com/drive/u/1/folders/14GtqH23Y-_fvUc2zdBM8ecDRRsh9yvai"
-							},
-							{
-								"name": "Miro",
-								"link": "https://miro.com/app/board/o9J_l7zVQv4=/"
-							}
-						]
-					}
-				]
+				"name": "Estágio",
+				"link": "https://estagio.utfpr.edu.br"
 			}
 		]
 	},
@@ -82,8 +38,78 @@ const sitesJSON = {
 		"card": "col-sm-6 col-md-3",
 		"content": [
 			{
-				"name": "GNews",
-				"link": "https://news.google.com/"
+				"nick": "utf",
+				"name": "UTF",
+				"link": [
+                    {
+                        "name": "Portal",
+                        "link": "https://sistemas2.utfpr.edu.br/login?returnUrl=%2Fdpls%2Fsistema%2Faluno02%2Fmpmenu.inicio"
+                    },
+                    {
+                        "name": "Moodle",
+                        "link": "https://moodle.utfpr.edu.br/"
+                    },
+                    {
+                        "name": "Drive UTF",
+                        "link": "https://drive.google.com/drive/u/2/"
+                    },
+                    {
+                        "name": "Gmail UTF",
+                        "link": "https://mail.google.com/mail/u/2/"
+                    },
+                    {
+                        "name": "Drive Key",
+                        "link": "https://drive.google.com/drive/u/2/folders/1uAs5juoO6WiSgM513839BV_9BIu_KNqL"
+                    },
+                    {
+                        "nick": "maisUtf",
+                        "name": "maisUTF",
+                        "link": [
+                            {
+                                "name": "CertificaUTF",
+                                "link": "https://certificautf.herokuapp.com/"
+                            },
+                            {
+                                "name": "SGCE",
+                                "link": "http://apl.utfpr.edu.br/extensao/certificados/listaPublica"
+                            },
+                            {
+                                "name": "Cursos",
+                                "link": "http://www.utfpr.edu.br/cursos/graduacao"
+                            },
+                            {
+                                "nick": "ludico",
+                                "name": "LUDICO",
+                                "link": [
+                                    {
+                                        "name": "Facebook",
+                                        "link": "https://www.facebook.com/UTFPR.BG"
+                                    },
+                                    {
+                                        "name": "Instagram",
+                                        "link": "https://www.instagram.com/utfprbg/"
+                                    },
+                                    {
+                                        "name": "Blog",
+                                        "link": "http://utfprbg.cp.utfpr.edu.br/"
+                                    },
+                                    {
+                                        "name": "YouTube",
+                                        "link": "https://www.youtube.com/c/UTFPRBG"
+                                    },
+                                    {
+                                        "name": "Drive",
+                                        "link": "https://drive.google.com/drive/u/1/folders/14GtqH23Y-_fvUc2zdBM8ecDRRsh9yvai"
+                                    },
+                                    {
+                                        "name": "Miro",
+                                        "link": "https://miro.com/app/board/o9J_l7zVQv4=/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
 			},
 			{
 				"name": "globo.com",
@@ -110,8 +136,30 @@ const sitesJSON = {
 				]
 			},
 			{
-				"name": "MongoDB",
-				"link": "https://account.mongodb.com/account/login"
+				"nick": "amazon",
+				"name": "Amazon",
+				"link": [
+					{
+						"name": "Amazon",
+						"link": "https://www.amazon.com.br/"
+					},
+					{
+						"name": "Prime Video",
+						"link": "https://www.primevideo.com/"
+					},
+					{
+						"name": "Music Prime",
+						"link": "https://music.amazon.com.br/"
+					},
+					{
+						"name": "Prime Gaming",
+						"link": "https://gaming.amazon.com/"
+					},
+					{
+						"name": "Prime Reading",
+						"link": "https://www.amazon.com.br/kindle-dbs/hz/bookshelf/prime/?_encoding=UTF8&ref_=sv_kinc_3"
+					}
+				]
 			},
 			{
 				"nick": "init",
@@ -177,10 +225,6 @@ const sitesJSON = {
 					},
 
 				]
-			},
-			{
-				"name": "Overleaf",
-				"link": "http://overleaf.com/"
 			},
 			{
 				"nick": "orders",
@@ -256,6 +300,10 @@ const sitesJSON = {
 						"name": "git - Guia",
 						"link": "https://rogerdudler.github.io/git-guide/index.pt_BR.html"
 					},
+                    {
+                        "name": "MongoDB",
+                        "link": "https://account.mongodb.com/account/login"
+                    },
 					{
 						"nick": "pradoplucasGit",
 						"name": "pradoplucasGit",
@@ -527,8 +575,12 @@ const sitesJSON = {
 						"link": "https://ezgif.com/"
 					},
 					{
-						"name": "SmallPDF",
-						"link": "https://smallpdf.com/"
+						"name": "Remove BG",
+						"link": "https://www.remove.bg/upload"
+					},
+					{
+						"name": "iLovePDF",
+						"link": "https://www.ilovepdf.com/"
 					},
 					{
 						"name": "Pixabay",
@@ -645,8 +697,8 @@ const sitesJSON = {
 						"link": "https://www.reddit.com/r/CrackWatch/"
 					},
 					{
-						"name": "Outline",
-						"link": "https://outline.com/"
+						"name": "12ft Ladder",
+						"link": "https://12ft.io/"
 					},
 					{
 						"name": "scrcpy",
@@ -659,7 +711,11 @@ const sitesJSON = {
 					{
 						"name": "Mussum Ipsum",
 						"link": "https://mussumipsum.com/"
-					}
+					},
+                    {
+                        "name": "Overleaf",
+                        "link": "http://overleaf.com/"
+                    },
 				]
 			},
 			{
@@ -698,6 +754,12 @@ const sitesJSON = {
 						"name": "Ubisoft",
 						"link": "https://ubisoftconnect.com/en-US/"
 					},
+					{
+						"name": "FitGirl",
+						"link": "https://fitgirl-repacks.site/"
+					},
+
+                    
 
 				]
 			},
