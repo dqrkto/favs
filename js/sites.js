@@ -227,6 +227,10 @@ const sitesJSON = {
 				]
 			},
 			{
+				"name": "Spotify",
+				"link": "https://open.spotify.com/"
+			},
+			{
 				"nick": "orders",
 				"name": "Orders",
 				"link": [
@@ -272,7 +276,7 @@ const sitesJSON = {
 					},
 					{
 						"name": "RedeCanais",
-						"link": "https://redecanaistv.net/"
+						"link": "https://redecanaistv.to/"
 					},
 					{
 						"name": "Legendas.tv",
@@ -776,7 +780,7 @@ const sitesJSON = {
 						"link": "https://pradoplucas.github.io/"
 					},
 					{
-						"name": "Schedule",
+						"name": "gSchedule",
 						"link": "https://gschedule.herokuapp.com/"
 					},
 					{
