@@ -716,11 +716,15 @@ const sitesJSON = {
 						"name": "Mussum Ipsum",
 						"link": "https://mussumipsum.com/"
 					},
-                    {
-                        "name": "Overleaf",
-                        "link": "http://overleaf.com/"
-                    },
+				    	{
+						"name": "Overleaf",
+						"link": "http://overleaf.com/"
+				    	},
 				]
+			},
+			{
+				"name": "MAST",
+				"link": "https://archive.stsci.edu/"
 			},
 			{
 				"nick": "platforms",
@@ -844,6 +848,10 @@ const sitesJSON = {
 				"link": "https://photos.google.com/u/1/"
 			},
 			{
+				"name": "Translate",
+				"link": "https://translate.google.com.br/"
+			},
+			{
 				"nick": "maisGoogle",
 				"name": "maisGoogle",
 				"link": [
@@ -880,11 +888,7 @@ const sitesJSON = {
 						"link": "http://scholar.google.com/"
 					}
 				]
-			},
-			{
-				"name": "<span id=\"datetimeSpan\" class=\"font-nasa\" style=\"font-size: .9em\"></span>",
-				"link": "https://time.is/"
-			},
+			}
 		]
 	}
 }
