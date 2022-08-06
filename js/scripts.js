@@ -9,6 +9,12 @@ function findLinks(sitesJSON) {
 				for (link of fav.link) {
 					if (typeof link.link == 'object') {
 						modalContent.push(link);
+
+						for (link2 of link.link) {
+							if (typeof link2.link == 'object') {
+								modalContent.push(link2);
+							}
+						}
 					}
 				}
 			}

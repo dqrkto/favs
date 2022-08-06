@@ -3,24 +3,6 @@
     src: url('../assets/mrmonster.ttf');
 }
 
-@font-face {
-    font-family: nasa;
-    src: url('../assets/nasalization.otf');
-}
-
-@font-face {
-    font-family: xirod;
-    src: url('../assets/xirod.ttf');
-}
-
-.font-nasa{
-    font-family: nasa;
-}
-
-.font-xirod{
-    font-family: xirod;
-}
-
 .background{
     background-size: cover;
     background-attachment: fixed;
@@ -166,8 +148,6 @@
     color: rgb(0, 0, 0);
     border-color: #323232;
 }
-
-modal-backdrop
 
 /*##############################################################################
 ################################################################################
