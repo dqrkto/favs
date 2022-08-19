@@ -17,7 +17,7 @@ const sitesJSON = {
 				"link": "https://cognos.vilt-group.com/"
 			},
 			{
-				"name": "Webmail",
+				"name": "Gmail",
 				"link": "https://mail.google.com/mail/u/1/"
 			},
 			{
@@ -25,8 +25,8 @@ const sitesJSON = {
 				"link": "http://calendar.vilt-group.com/"
 			},
 			{
-				"name": "Estágio",
-				"link": "https://estagio.utfpr.edu.br"
+				"name": "Drive",
+				"link": "https://drive.google.com/drive/u/1/my-drive"
 			}
 		]
 	},
@@ -62,50 +62,48 @@ const sitesJSON = {
                         "link": "https://drive.google.com/drive/u/2/folders/1uAs5juoO6WiSgM513839BV_9BIu_KNqL"
                     },
                     {
-                        "nick": "maisUtf",
-                        "name": "maisUTF",
+                        "name": "Estágio",
+                        "link": "https://estagio.utfpr.edu.br"
+                    },
+                    {
+                        "name": "CertificaUTF",
+                        "link": "https://certificautf.herokuapp.com/"
+                    },
+                    {
+                        "name": "SGCE",
+                        "link": "http://apl.utfpr.edu.br/extensao/certificados/listaPublica"
+                    },
+                    {
+                        "name": "Cursos",
+                        "link": "http://www.utfpr.edu.br/cursos/graduacao"
+                    },
+                    {
+                        "nick": "ludico",
+                        "name": "LUDICO",
                         "link": [
                             {
-                                "name": "CertificaUTF",
-                                "link": "https://certificautf.herokuapp.com/"
+                                "name": "Facebook",
+                                "link": "https://www.facebook.com/UTFPR.BG"
                             },
                             {
-                                "name": "SGCE",
-                                "link": "http://apl.utfpr.edu.br/extensao/certificados/listaPublica"
+                                "name": "Instagram",
+                                "link": "https://www.instagram.com/utfprbg/"
                             },
                             {
-                                "name": "Cursos",
-                                "link": "http://www.utfpr.edu.br/cursos/graduacao"
+                                "name": "Blog",
+                                "link": "http://utfprbg.cp.utfpr.edu.br/"
                             },
                             {
-                                "nick": "ludico",
-                                "name": "LUDICO",
-                                "link": [
-                                    {
-                                        "name": "Facebook",
-                                        "link": "https://www.facebook.com/UTFPR.BG"
-                                    },
-                                    {
-                                        "name": "Instagram",
-                                        "link": "https://www.instagram.com/utfprbg/"
-                                    },
-                                    {
-                                        "name": "Blog",
-                                        "link": "http://utfprbg.cp.utfpr.edu.br/"
-                                    },
-                                    {
-                                        "name": "YouTube",
-                                        "link": "https://www.youtube.com/c/UTFPRBG"
-                                    },
-                                    {
-                                        "name": "Drive",
-                                        "link": "https://drive.google.com/drive/u/1/folders/14GtqH23Y-_fvUc2zdBM8ecDRRsh9yvai"
-                                    },
-                                    {
-                                        "name": "Miro",
-                                        "link": "https://miro.com/app/board/o9J_l7zVQv4=/"
-                                    }
-                                ]
+                                "name": "YouTube",
+                                "link": "https://www.youtube.com/c/UTFPRBG"
+                            },
+                            {
+                                "name": "Drive",
+                                "link": "https://drive.google.com/drive/u/1/folders/14GtqH23Y-_fvUc2zdBM8ecDRRsh9yvai"
+                            },
+                            {
+                                "name": "Miro",
+                                "link": "https://miro.com/app/board/o9J_l7zVQv4=/"
                             }
                         ]
                     }
