@@ -18,7 +18,7 @@ const sitesJSON = {
 			},
 			{
 				"name": "Gmail",
-				"link": "https://mail.google.com/mail/u/1/"
+				"link": "https://mail.google.com/mail/u/2/"
 			},
 			{
 				"name": "Calendar",
@@ -26,7 +26,7 @@ const sitesJSON = {
 			},
 			{
 				"name": "Drive",
-				"link": "https://drive.google.com/drive/u/1/my-drive"
+				"link": "https://drive.google.com/drive/u/2/my-drive"
 			}
 		]
 	},
@@ -51,15 +51,15 @@ const sitesJSON = {
                     },
                     {
                         "name": "Drive UTF",
-                        "link": "https://drive.google.com/drive/u/2/"
+                        "link": "https://drive.google.com/drive/u/1/"
                     },
                     {
                         "name": "Gmail UTF",
-                        "link": "https://mail.google.com/mail/u/2/"
+                        "link": "https://mail.google.com/mail/u/1/"
                     },
                     {
                         "name": "Drive Key",
-                        "link": "https://drive.google.com/drive/u/2/folders/1uAs5juoO6WiSgM513839BV_9BIu_KNqL"
+                        "link": "https://drive.google.com/drive/u/1/folders/1uAs5juoO6WiSgM513839BV_9BIu_KNqL"
                     },
                     {
                         "name": "Estágio",
