@@ -71,23 +71,23 @@ const sitesJSON = {
 				"link": [
 					{
 						"name": "Futemax",
-						"link": "http://futemax.live/"
+						"link": "https://futemax.stream/"
 					},
 					{
-						"name": "Multicanais",
+						"name": "KAT",
+						"link": "https://kickasstorrents.to/"
+					},
+					{
+						"name": "Open Subtitles",
+						"link": "https://www.opensubtitles.com/en"
+					},
+					{
+						"name": "g | multicanais",
 						"link": "https://multicanais.com/"
 					},
 					{
-						"name": "RedeCanais",
+						"name": "g | futemax",
 						"link": "https://redecanaistv.to/"
-					},
-					{
-						"name": "Legendas.tv",
-						"link": "http://legendas.tv/"
-					},
-					{
-						"name": "1337x",
-						"link": "https://1337x.to/"
 					}
 				]
 			},
@@ -205,16 +205,24 @@ const sitesJSON = {
 				]
 			},
 			{
-				"nick": "orders",
-				"name": "Orders",
+				"nick": "shop",
+				"name": "Shop",
 				"link": [
+					{
+						"name": "Amazon",
+						"link": "https://www.amazon.com.br/"
+					},
+					{
+						"name": "AliExpress",
+						"link": "https://www.aliexpress.com/"
+					},
 					{
 						"name": "Shopee",
 						"link": "http://shopee.com/"
 					},
 					{
-						"name": "AliExpress",
-						"link": "https://www.aliexpress.com/"
+						"name": "Shein",
+						"link": "https://br.shein.com/"
 					},
 					{
 						"name": "Correios",
