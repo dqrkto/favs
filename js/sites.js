@@ -46,8 +46,8 @@ const sitesJSON = {
 				"link": "https://globoplay.globo.com/tv-globo/ao-vivo/6120663/" 
 			},
 			{ 	
-				"name": "STAR +", 
-				"link": "https://www.starplus.com/" 
+				"name": "Max", 
+				"link": "https://www.max.com/" 
 			},
 			{
 				"name": "Prime Video",
@@ -57,9 +57,9 @@ const sitesJSON = {
 				"name": "Twitch", 
 				"link": "http://twitch.tv/" 
 			},
-			{ 	
-				"name": "HLTV.org", 
-				"link": "http://hltv.org/" 
+			{
+				"name": "SBT",
+				"link": "https://www.sbt.com.br/ao-vivo"
 			},
 			{
 				"name": "FitGirl",
@@ -70,8 +70,168 @@ const sitesJSON = {
 				"name": "!Original",
 				"link": [
 					{
-						"name": "Futemax",
-						"link": "https://futemax.stream/"
+						"nick": "espn",
+						"name": "ESPN",
+						"link": [
+							{
+								"name": "ESPN",
+								"link": "https://meuplayeronlinehd.com/myplay/watch.html?id=espn"
+							},
+							{
+								"name": "ESPN 2",
+								"link": "https://meuplayeronlinehd.com/myplay/watch.html?id=espn2"
+							},
+							{
+								"name": "ESPN 3",
+								"link": "https://meuplayeronlinehd.com/myplay/watch.html?id=espn3"
+							},
+							{
+								"name": "ESPN 4",
+								"link": "https://meuplayeronlinehd.com/myplay/watch.html?id=espn4"
+							},
+							{
+								"name": "ESPN 5",
+								"link": "https://meuplayeronlinehd.com/myplay/watch.html?id=espn5"
+							},
+							{
+								"name": "ESPN 6",
+								"link": "https://meuplayeronlinehd.com/myplay/watch.html?id=espn6"
+							},
+							{
+								"name": "Disney+ 1",
+								"link": "https://meuplayeronlinehd.com/myplay/watch.html?id=ds1"
+							},
+							{
+								"name": "Disney+ 2",
+								"link": "https://meuplayeronlinehd.com/myplay/watch.html?id=ds2"
+							},
+							{
+								"name": "Disney+ 3",
+								"link": "https://meuplayeronlinehd.com/myplay/watch.html?id=ds3"
+							},
+						]
+					},
+					{
+						"nick": "sportv",
+						"name": "SporTV",
+						"link": [
+							{
+								"name": "SporTV",
+								"link": "https://meuplayeronlinehd.com/myplay/watch.html?id=sportv"
+							},
+							{
+								"name": "SporTV 2",
+								"link": "https://meuplayeronlinehd.com/myplay/watch.html?id=sportv2"
+							},
+							{
+								"name": "SporTV 3",
+								"link": "https://meuplayeronlinehd.com/myplay/watch.html?id=sportv3"
+							},
+							{
+								"name": "SporTV 4",
+								"link": "https://meuplayeronlinehd.com/myplay/watch.html?id=sportv4"
+							},
+							{
+								"name": "SporTV 5",
+								"link": "https://meuplayeronlinehd.com/myplay/watch.html?id=sportv5"
+							},
+							{
+								"name": "SporTV 6",
+								"link": "https://meuplayeronlinehd.com/myplay/watch.html?id=sportv6"
+							},
+						]
+					},
+					{
+						"nick": "embedcanal",
+						"name": "EmbedCanal",
+						"link": [
+							{
+								"name": "BR1",
+								"link": "https://embedcanal.com/br1.php"
+							},
+							{
+								"name": "BR2",
+								"link": "https://embedcanal.com/br2.php"
+							},
+							{
+								"name": "BR3",
+								"link": "https://embedcanal.com/br3.php"
+							},
+							{
+								"name": "BR4",
+								"link": "https://embedcanal.com/br4.php"
+							},
+							{
+								"name": "BR5",
+								"link": "https://embedcanal.com/br5.php"
+							},
+							{
+								"name": "BR6",
+								"link": "https://embedcanal.com/br6.php"
+							},
+							{
+								"name": "BR7",
+								"link": "https://embedcanal.com/br7.php"
+							},
+							{
+								"name": "BR8",
+								"link": "https://embedcanal.com/br8.php"
+							},
+							{
+								"name": "BR9",
+								"link": "https://embedcanal.com/br9.php"
+							},
+						]
+					},
+					{
+						"nick": "multicanais",
+						"name": "Multicanais",
+						"link": [
+							{
+								"name": "multicanais.im",
+								"link": "https://multicanais.im/"
+							},
+							{
+								"name": "multicanais.show",
+								"link": "https://multicanais.show/"
+							},
+							{
+								"name": "g | multicanais",
+								"link": "https://www.google.com/search?q=multicanais"
+							},
+						]
+					},
+					{
+						"nick": "sportsonline",
+						"name": "Sports Online",
+						"link": [
+							{
+								"name": "Sports Online",
+								"link": "https://v5.sportsonline.si"
+							},
+							{
+								"name": "Sports Online 2",
+								"link": "https://sportsonline.gl/"
+							},
+						]
+					},
+					{
+						"nick": "embedflix",
+						"name": "Embedflix",
+						"link": [
+							{
+								"name": "Channels",
+								"link": "https://embedflix.top/tv/"
+							},
+							{
+								"name": "Disney",
+								"link": "https://embedflix.top/disney/"
+							},
+						]
+					},
+					{
+						"name": "Rei dos Canais",
+						"link": "https://reidoscanais.tv/"
 					},
 					{
 						"name": "KAT",
@@ -82,22 +242,18 @@ const sitesJSON = {
 						"link": "https://www.opensubtitles.com/en"
 					},
 					{
-						"name": "g | multicanais",
-						"link": "https://multicanais.com/"
-					},
-					{
 						"name": "g | futemax",
-						"link": "https://redecanaistv.to/"
+						"link": "https://www.google.com/search?q=futemax"
 					}
 				]
+			},
+			{ 	
+				"name": "Text Compare", 
+				"link": "https://onlinetextcompare.com/" 
 			},
 			{
 				"name": "Spotify",
 				"link": "https://open.spotify.com/"
-			},
-			{
-				"name": "GitHub",
-				"link": "https://github.com/"
 			},
 			{
 				"nick": "message",
@@ -849,6 +1005,14 @@ const sitesJSON = {
 					{
 						"name": "GG.deals",
 						"link": "https://gg.deals/"
+					},
+					{ 	
+						"name": "HLTV.org", 
+						"link": "http://hltv.org/" 
+					},
+					{
+						"name": "Stremio Addons",
+						"link": "https://stremio-addons.netlify.app/"
 					},
 				]
 			},

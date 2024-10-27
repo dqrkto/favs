@@ -4,14 +4,20 @@ function findLinks(sitesJSON) {
 	for (oneColumn in sitesJSON) {
 		for (fav of sitesJSON[oneColumn].content) {
 			if (typeof fav.link == 'object') {
+				fav.parentNick = fav.nick;
+				fav.parentName = "Back";
 				modalContent.push(fav);
 
 				for (link of fav.link) {
 					if (typeof link.link == 'object') {
+						link.parentNick = fav.nick;
+						link.parentName = fav.name;
 						modalContent.push(link);
 
 						for (link2 of link.link) {
 							if (typeof link2.link == 'object') {
+								link2.parentNick = link.nick;
+								link2.parentName = link.name;
 								modalContent.push(link2);
 							}
 						}
