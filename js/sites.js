@@ -846,7 +846,7 @@ const sitesJSON = {
 									{
 										"name": "Heroku",
 										"link": "https://dashboard.heroku.com/apps"
-									},
+									}, 
 									{
 										"name": "Kaffeine",
 										"link": "https://kaffeine.herokuapp.com/"
