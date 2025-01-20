@@ -402,7 +402,7 @@ const sitesJSON = {
 						"link": "https://docero.com.br/"
 					},
 					{
-						"name": "Z-Library",
+						"name": "Z<span class='font-merri'>-</span>Library",
 						"link": "https://br1lib.org/"
 					},
 					{
@@ -478,7 +478,7 @@ const sitesJSON = {
 						"link": "https://howlongtobeat.com/"
 					},
 					{
-						"name": "r/CrackWatch",
+						"name": "r<span class='font-merri'>/</span>CrackWatch",
 						"link": "https://www.reddit.com/r/CrackWatch/"
 					},
 					{
@@ -706,11 +706,11 @@ const sitesJSON = {
 								"name": "Code",
 								"link": [
 									{
-										"name": "git - Config",
+										"name": "git <span class='font-merri'>|</span> Config",
 										"link": "https://www.shellhacks.com/git-config-username-password-store-credentials/"
 									},
 									{
-										"name": "git - Guia",
+										"name": "git <span class='font-merri'>|</span> Guia",
 										"link": "https://rogerdudler.github.io/git-guide/index.pt_BR.html"
 									},
 									{
@@ -823,7 +823,7 @@ const sitesJSON = {
 							},
 							{
 								"nick": "codePython",
-								"name": "Code_Py",
+								"name": "Code<span class='font-merri'>_</span>Py",
 								"link": [
 									{
 										"name": "Requests",
@@ -841,7 +841,7 @@ const sitesJSON = {
 							},
 							{
 								"nick": "codeWeb",
-								"name": "Code_Web",
+								"name": "Code<span class='font-merri'>_</span>Web",
 								"link": [
 									{
 										"name": "Heroku",
@@ -865,7 +865,7 @@ const sitesJSON = {
 									},
 									{
 										"nick": "webHTMLCSSJS",
-										"name": "HTML/CSS/JS",
+										"name": "HTML<span class='font-merri'>/</span>CSS<span class='font-merri'>/</span>JS",
 										"link": [
 											{
 												"name": "Scroll Indicator",
