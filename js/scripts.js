@@ -59,7 +59,6 @@ function toggleTheme() {
 	}
 }
 
-
 setTime()
 
 setInterval(setTime, 60000);
