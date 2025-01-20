@@ -1,13 +1,22 @@
 @font-face {
-    font-family: monster;
-    src: url('../assets/mrmonster.ttf');
+    font-family: brickson;
+    src: url('../assets/brickson.otf');
+}
+
+@font-face {
+    font-family: merri;
+    src: url('../assets/Merriweather-Regular.ttf');
+}
+
+.font-merri{
+    font-family: merri;
 }
 
 .background{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    font-family: monster;
+    font-family: brickson;
 }
 
 .background .container-fluid{

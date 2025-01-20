@@ -27,12 +27,12 @@
                 {{#each sitesJSON}}
                     <div class="{{this.box}} border dark toggleTheme">
                         <div class="row justify-content-center">
-                            <div class="col-sm-12 box-header"><a role="button" onclick="toggleTheme()">{{this.name}}</a></div>
+                            <div class="col-sm-12 box-header"><a role="button" onclick="toggleTheme()">{{{this.name}}}</a></div>
                             {{#each this.content}}
                                 {{#if this.nick}}
                                     <div class="{{../this.card}} card-div">
                                         <a role="button" target="_blank" class="btn dark w-100 card-custom toggleTheme" data-bs-toggle="modal" data-bs-target="#{{this.nick}}Links">
-                                            {{this.name}} [+]
+                                            {{{this.name}}} <span class="font-merri">+</span>
                                         </a>
                                     </div>
                                 {{else}}
@@ -58,12 +58,12 @@
                                 
                                 <div class="position-absolute" style="left: 3%; z-index: 10">
                                     <button class="btn btn-outline-light" data-bs-target="#{{this.parentNick}}Links" data-bs-toggle="modal" data-bs-dismiss="modal">
-                                        {{this.parentName}}
+                                        {{{this.parentName}}}
                                     </div>
 
 
                                 
-                                <h2 class="modal-title text-center">{{this.name}}</h2>
+                                <h2 class="modal-title text-center">{{{this.name}}}</h2>
                             </div>
                             <div class="modal-body pt-0 pb-2">
                                 <div class="row justify-content-center">
@@ -71,13 +71,13 @@
                                         {{#unless this.nick}}
                                             <div class="col-sm-6 col-md-4 card-div">
                                                 <a href="{{this.link}}" target="_blank" class="btn dark w-100 card-custom toggleTheme">
-                                                    {{this.name}}
+                                                    {{{this.name}}}
                                                 </a>
                                             </div>
                                         {{else}}
                                             <div class="col-sm-6 col-md-4 card-div">
                                                 <a role="button" target="_blank" class="btn dark w-100 card-custom toggleTheme" data-bs-toggle="modal" data-bs-target="#{{this.nick}}Links">
-                                                    {{this.name}} [+]
+                                                    {{{this.name}}} <span class="font-merri">+</span>
                                                 </a>
                                             </div>
                                         {{/unless}}

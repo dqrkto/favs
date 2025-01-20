@@ -58,3 +58,17 @@ function toggleTheme() {
 		element.classList.remove(toggleValues[1]);
 	}
 }
+
+
+setTime()
+
+setInterval(setTime, 60000);
+
+function setTime() {
+	const d = new Date();	
+	document.getElementById('time').innerHTML = adjust_num(d.getHours()) + 'h' + adjust_num(d.getMinutes()) + ' <span class="font-merri">|</span> ' + adjust_num(d.getDate()) + '<span class="font-merri">/</span>' + adjust_num(d.getMonth() + 1)
+}
+
+function adjust_num(num){
+	return num < 10 ? '0' + num : num;
+}
