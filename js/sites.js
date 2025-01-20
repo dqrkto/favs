@@ -862,7 +862,7 @@ const sitesJSON = {
 									{
 										"name": "Color Mixer",
 										"link": "https://colordesigner.io/color-mixer"
-									}, 
+									},
 									{
 										"nick": "webHTMLCSSJS",
 										"name": "HTML<span class='font-merri'>/</span>CSS<span class='font-merri'>/</span>JS",
